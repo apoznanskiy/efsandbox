@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "STrwbnQF8qdzUC3w2Yo96ha/3PaDhHhprSTGsvU1+k4PhwlocX9lDbc6id2uwpOh7h5AAhh35yTRw8T1u1qUQQ==",
+  "dgSpecHash": "cASqhjHS/Kx+l3gvQTYXatGZ3AxGlTjc2cQz1EH3qfUyd1hsCAXa19b6oYSR61gCikelvNUxozwCn8MUeDK4oA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\Desktop\\.NET All\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Desktop\\.NET All\\efsandbox\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

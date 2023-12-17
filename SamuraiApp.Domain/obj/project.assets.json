@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Desktop\\.NET All\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Desktop\\.NET All\\efsandbox\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
       "projectName": "SamuraiApp.Domain",
-      "projectPath": "C:\\Users\\andre\\Desktop\\.NET All\\SamuraiApp\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
+      "projectPath": "C:\\Users\\andre\\Desktop\\.NET All\\efsandbox\\SamuraiApp.Domain\\SamuraiApp.Domain.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Desktop\\.NET All\\SamuraiApp\\SamuraiApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Desktop\\.NET All\\efsandbox\\SamuraiApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
