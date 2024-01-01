@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SamuraiApp.Domain;
 
 namespace SamuraiApp.Data;
@@ -11,7 +13,11 @@ public class SamuraiContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=DESKTOP-Q44S7N8;Database=applicationdb1;User Id=sa;Password=admin;TrustServerCertificate=True;");
+        optionsBuilder
+            .UseSqlServer("Server=DESKTOP-Q44S7N8;Database=applicationdb1;User Id=sa;Password=admin;TrustServerCertificate=True;",
+                options => options.MaxBatchSize(100))
+            .LogTo(Console.WriteLine, new[] { DbLoggerCategory.Database.Command.Name}, LogLevel.Information)
+            .EnableSensitiveDataLogging();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

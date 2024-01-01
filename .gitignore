@@ -1,3 +1,5 @@
 .vs/
 SamuraiApp.Data/obj/
 SamuraiApp.UI/obj/
+.idea/
+SamuraiApp.Domain/obj/
