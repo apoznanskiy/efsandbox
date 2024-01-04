@@ -3,3 +3,5 @@ SamuraiApp.Data/obj/
 SamuraiApp.UI/obj/
 .idea/
 SamuraiApp.Domain/obj/
+SamuraiApp.UI/bin/
+SamuraiApp.Data/bin/
